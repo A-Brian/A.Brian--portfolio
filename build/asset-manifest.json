@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7600adcd.css",
+    "main.js": "/static/js/main.1b6d9b07.js",
+    "static/media/instagram.png": "/static/media/instagram.263cdf8b69b5f5cfc6b7.png",
+    "static/media/walmart.png": "/static/media/walmart.744238fe8eeeae08051f.png",
+    "static/media/shopping.png": "/static/media/shopping.cd49fe80b68bcd54458b.png",
+    "static/media/app.png": "/static/media/app.3ddba3f957e620fb13ac.png",
+    "static/media/microsoft.png": "/static/media/microsoft.700decb44e430b094281.png",
+    "static/media/sacco.png": "/static/media/sacco.760853da1b306ec3aae4.png",
+    "static/media/adobe.png": "/static/media/adobe.f76e3d001d66379223f9.png",
+    "static/media/brian.jpg": "/static/media/brian.a2214a4c7cd6ca490347.jpg",
+    "static/media/church.jpg": "/static/media/church.eb0863f2acf07aed2339.jpg",
+    "static/media/fb.jpg": "/static/media/fb.740c815081e2874d4ad4.jpg",
+    "static/media/youtube.jpg": "/static/media/youtube.e0e1d4cb341514baa3fd.jpg",
+    "static/media/twitter.png": "/static/media/twitter.57573394db94634d7e1f.png",
+    "index.html": "/index.html",
+    "main.7600adcd.css.map": "/static/css/main.7600adcd.css.map",
+    "main.1b6d9b07.js.map": "/static/js/main.1b6d9b07.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7600adcd.css",
+    "static/js/main.1b6d9b07.js"
+  ]
+}
