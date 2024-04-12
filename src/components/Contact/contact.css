@@ -1,0 +1,42 @@
+.contactPage{
+
+    @apply  w-screen max-w-[60rem] mx-[auto] my-[0] text-center flex flex-col items-center justify-center
+
+}
+.contactPageTitle{
+   @apply text-[3rem] mb-4
+}
+
+.clientDesc{
+   @apply font-light text-[1rem]
+}
+
+.clientImgs{
+   @apply mx-[0] my-4 flex flex-wrap
+
+}
+.clientImg{
+   @apply object-cover w-[23%] min-w-[9rem] m-auto p-1
+   
+}
+.clients{
+  @apply  p-8
+}
+.contactDesc{
+   @apply p-4 text-[medium] font-light
+}
+.contactForm{
+  @apply m-4 flex flex-col items-center justify-center w-[90vw] max-w-[60rem]
+}
+.name,.email,.msg{
+   @apply text-[medium] w-full max-w-[40rem] m-2 px-4 py-2 text-[white] border-[none] rounded-lg bg-[rgb(40,40,40)]
+}
+.submitBtn{
+   @apply bg-[black] border-[none] rounded-lg px-14 py-3 m-8
+}
+.links{
+    @apply flex flex-wrap
+}
+.link{
+    @apply object-cover h-12 w-12 mx-3 my-[0]
+}

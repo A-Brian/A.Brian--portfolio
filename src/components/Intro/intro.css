@@ -1,0 +1,46 @@
+.intro{
+   @apply w-screen max-w-[75rem] mx-[auto] my-[0] overflow-hidden relative
+}
+.bg{
+    @apply rounded-[10rem] mt-60 absolute -top-16 right-[0] object-cover
+    
+}
+.introContent{
+   @apply h-screen w-screen p-8 text-[3rem] font-bold flex flex-col justify-center
+}
+.hello{
+    @apply text-[1.75rem] font-extralight
+}
+.introName{
+   @apply text-[yellow]
+}
+.introPara{
+    @apply text-[medium] font-light tracking-[1px]
+
+}
+.btn
+{
+    @apply bg-[white] text-black text-sm mx-[0] my-4 px-6 py-3 border-[none] rounded-[2rem]
+}
+.btnImg{
+    @apply object-cover mx-1 my-[0] h-4
+}
+@media screen and (max-width:840px){
+    .bg{
+       @apply [@media_screen_and(max-width:840px)]:-right-[10vw]
+    }
+    .introContent{
+        @apply [@media_screen_and(max-width:840px)]:text-[10vw]
+    }
+    .hello{
+        @apply [@media_screen_and(max-width:840px)]:text-[4.5vw]
+    }
+    
+}
+@media screen and (max-width:480px){
+    .bg{
+        @apply [@media_screen_and(max-width:480px)]:-right-[20vw]
+    }
+   
+    
+}

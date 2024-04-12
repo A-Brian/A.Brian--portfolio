@@ -1,0 +1,40 @@
+.skills{
+  @apply overflow-hidden w-screen max-w-[65rem] flex flex-col items-center justify-center text-center mx-[auto] my-[0]  
+}
+.skillTitle{
+    @apply text-[3rem] font-semibold pt-4 mb-6
+}
+.skillDesc{
+  @apply font-light text-[1rem] max-w-[50rem] px-8 py-[0]  
+}
+.skillBars{
+   @apply m-6 w-screen max-w-[80%] text-left
+}
+.skillBar{
+   @apply flex m-4 px-8 py-6 rounded-lg bg-[rgb(50,50,50)]
+}
+
+.skillBarImg{
+    @apply object-cover h-12 w-12 mr-8
+}
+.skillBarText>p{
+@apply text-[0.9rem] font-extralight
+}
+
+@media screen and (max-width:720px) {
+    .skillBarText{
+        @apply [@media_screen_and(max-width:720px)]:text-[2vw]
+    }
+}
+
+@media screen and (max-width:480px) {
+    .skillBarText{
+      @apply [@media_screen_and(max-width:480px)]:text-[3vw]
+    }
+    .skillBarImg{
+       @apply [@media_screen_and(max-width:480px)]:h-9 [@media_screen_and(max-width:480px)]:w-9
+    }
+    .skillBarText>h2{
+@apply [@media_screen_and(max-width:480px)]:text-[5vw]
+    }
+}

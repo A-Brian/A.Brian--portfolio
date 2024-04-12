@@ -1,0 +1,37 @@
+
+  .projects {
+   @apply mx-[auto] my-[0] text-center  max-w-[60rem] flex flex-col items-center justify-center px-4 py-[0]
+  }
+  
+  .project-container {
+   @apply flex flex-wrap justify-between mx-[0] my-[20px]
+  }
+  
+  .project {
+   @apply w-[30%] m-[10px] bg-[#f5f5f5] p-[20px] rounded-[5px] [box-shadow:0_2px_5px_rgba(0,_0,_0,_0.1)] text-left
+  }
+  
+  .project img {
+   @apply object-cover w-full block mb-[10px]
+  }
+  
+  .project h3 {
+    @apply mb-[5px] text-[black]
+  }
+  
+  .project p {
+   @apply text-[14px] leading-normal mb-[15px] text-[black]
+  }
+  
+  .project-link {
+   @apply bg-[#3498db] text-[#fff] px-[20px] py-[10px] border-[none] rounded-[5px] cursor-pointer no-underline [transition:background-color_0.2s_ease-in-out]
+  }
+  
+  .project-link:hover {
+   @apply hover:bg-[#2980b9]
+  }
+  @media screen and (max-width:585px) {
+    .project-container{
+        @apply [@media_screen_and(max-width:585px)]:h-[48vw]
+    }
+  }

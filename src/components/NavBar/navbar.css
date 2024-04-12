@@ -1,0 +1,44 @@
+.navbar{
+  @apply bg-[rgb(30,_30,_30)] h-20 w-screen max-w-[75rem] mx-[auto] my-[0] px-8 py-4 flex items-center justify-between sticky top-[0]
+   
+}
+.logo
+{
+    @apply object-cover h-12 w-16
+}
+.desktopMenuListItem{
+   @apply m-4 cursor-pointer
+}
+.desktopMenuListItem:hover{
+    @apply p-4 hover:bg-[#34443f] rounded-xl m-2 cursor-pointer duration-300
+}
+.desktopBtn{
+    @apply bg-[white] text-[black] border-[none] flex items-center justify-center px-4 py-[0] rounded-[2rem]
+}
+.desktopMenuImg{
+   @apply object-cover h-4 w-4 m-4
+}
+.active{
+    @apply p-4 hover:bg-[#34443f] rounded-xl m-2 cursor-pointer duration-300
+}
+.mobMenu{
+    @apply hidden object-cover h-[1.8rem]
+}
+.navMenu{
+   @apply absolute top-16 right-8 flex-col p-2 h-[fit-content] min-w-[15rem] bg-[rgb(40,40,40)] rounded-2xl
+}
+.listItem{
+   @apply text-[white] px-12 py-2 m-1 bg-[rgb(30,_30,_30)]
+
+}
+@media screen and (max-width:720px) {
+    .mobMenu{
+        @apply [@media_screen_and(max-width:720px)]:flex
+    }
+    .desktopMenu{
+       @apply [@media_screen_and(max-width:720px)]:hidden
+    }
+    .desktopMenuBtn{
+        @apply [@media_screen_and(max-width:720px)]:hidden
+    }
+}
